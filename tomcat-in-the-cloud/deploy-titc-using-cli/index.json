@@ -1,6 +1,6 @@
 {
 	"icon": "fa-openshift",
-	"title": "Using OpenShift to Build Docker Images",
+	"title": "Deploying Tomcat in the Cloud to OpenShift",
 	"description": "",
 	"pathwayTitle": "OpenShift",
 	"backend": {
@@ -15,28 +15,8 @@
 	"details": {
 		"steps": [
 			{
-			"title": "Step 1 - Creating Projects",
-			"text": "step1.md"
-			},
-			{
-			"title": "Step 2 - Building Components",
-			"text": "step2.md"
-			},
-			{
-			"title": "Step 3 - Docker Registry",
-			"text": "step3.md"
-			},
-			{
-			"title": "Step 4 - Deployment Status",
-			"text": "step4.md"
-			},
-			{
-			"title": "Step 5 - Rebuilding Image",
-			"text": "step5.md"
-			},
-			{
-			"title": "Step 6 - Builds in OpenShift UI Console",
-			"text": "step6.md"
+			"title": "Step 1 - Deployment",
+			"text": "1_deployment.md"
 			}
 		],
 		"intro": {

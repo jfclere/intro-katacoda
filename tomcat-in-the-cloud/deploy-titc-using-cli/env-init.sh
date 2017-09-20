@@ -1,6 +1,6 @@
 # Install jdk
-yum install java-1.8.0-openjdk -y
-export JAVA_HOME=/usr/lib/jvm/jre-1.8.0-openjdk
+yum install java-1.8.0-openjdk-devel.x86_64 -y
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk
 
 # Installing maven
 wget http://mirror.olnevhost.net/pub/apache/maven/maven-3/3.5.0/binaries/apache-maven-3.5.0-bin.tar.gz

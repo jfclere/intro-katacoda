@@ -1,3 +1,6 @@
+# test stuff
+ssh root@host01 "> /tmp/toto"
+
 # Install jdk
 yum install java-1.8.0-openjdk-devel.x86_64 -y > /tmp/toto.txt
 export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk

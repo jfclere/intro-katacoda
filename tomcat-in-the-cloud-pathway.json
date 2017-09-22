@@ -5,7 +5,7 @@
   "courses": [
     {
       "course_id": "deploy-titc-using-cli",
-    	"title": "Deploy Tomcat in the cloud to OpenShift using CLI",
+    	"title": "Deploy tomcat-in-the-cloud to OpenShift using CLI",
     	"description": ""
     }
   ]

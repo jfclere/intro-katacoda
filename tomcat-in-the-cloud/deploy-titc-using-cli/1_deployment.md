@@ -4,9 +4,9 @@ Using projects can make the management of large scale deployments much simpler. 
 
 ## Task
 
-This project will be named _GreenHatStore_, a concept store selling Green and Red Hats. The CLI can create projects using the command _new-project_.
+This project will be named _tomcat-in-the-cloud_, a simple rest clusterised counter demo.c
 
-`oc new-project green-hat-store`{{execute}}
+`oc new-project tomcat-in-the-cloud`{{execute}}
 
 With the project created, the CLI context switches to the project. It is possible to change projects, or contexts, at any time.
 

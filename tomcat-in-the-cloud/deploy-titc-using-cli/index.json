@@ -1,6 +1,6 @@
 {
 	"icon": "fa-openshift",
-	"title": "Deploying Tomcat in the Cloud to OpenShift",
+	"title": "Deploying tomcat-in-the-cloud to OpenShift",
 	"description": "",
 	"pathwayTitle": "OpenShift",
 	"backend": {

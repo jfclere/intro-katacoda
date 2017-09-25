@@ -33,3 +33,11 @@ build and deploy it using maven
 
 Check the pods
 `oc get pods`{{execute}}
+
+Check the host (route) to access the application
+
+`oc describe routes`{{execute}}
+
+Scale the application to 3 pods
+
+`oc scale dc tomcat-in-the-cloud --replicas=3`{{execute}}

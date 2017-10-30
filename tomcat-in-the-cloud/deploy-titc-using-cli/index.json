@@ -15,12 +15,15 @@
 	"details": {
 		"steps": [
 			{
-			"title": "Step 1 - Deployment",
-			"text": "1_deployment.md"
-			}
+	      "title": "Step 1 - Building Dependencies",
+	      "text": "1_buildDependencies.md"
+	    },
+	    {
+	      "title": "Step 2 - Deployment",
+	      "text": "2_deployment.md"
+	    }
 		],
 		"intro": {
-			"courseData": "env-init.sh",
 			"code": "set-env.sh",
 			"text": "intro.md"
 		},

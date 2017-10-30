@@ -1,11 +1,11 @@
 {
-  "title": "Introduction to Tomcat in the cloud",
-  "description": "Learn Tomcat in the cloud",
+  "title": "Introduction to Tomcat-in-the-cloud",
+  "description": "Learn Tomcat-in-the-cloud",
   "paid": false,
   "courses": [
     {
       "course_id": "deploy-titc-using-cli",
-    	"title": "Deploy tomcat-in-the-cloud to OpenShift using CLI",
+    	"title": "Deploy Tomcat-in-the-cloud to OpenShift using CLI",
     	"description": ""
     }
   ]

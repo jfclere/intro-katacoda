@@ -1,0 +1,34 @@
+{
+	"icon": "fa-openshift",
+	"title": "Deploying tomcat-in-the-cloud to OpenShift",
+	"description": "",
+	"pathwayTitle": "OpenShift",
+	"backend": {
+		"imageid": "openshift",
+		"port": 8443
+	},
+	"environment": {
+		"showdashboard": true,
+		"dashboard": "Dashboard",
+		"uilayout": "terminal"
+	},
+	"details": {
+		"steps": [
+			{
+	      "title": "Step 1 - Building Dependencies",
+	      "text": "1_buildDependencies.md"
+	    },
+	    {
+	      "title": "Step 2 - Deployment",
+	      "text": "2_deployment.md"
+	    }
+		],
+		"intro": {
+			"code": "set-env.sh",
+			"text": "intro.md"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	}
+}

@@ -5,7 +5,12 @@
   "courses": [
     {
       "course_id": "deploy-titc-using-cli",
-    	"title": "Deploy Tomcat-in-the-cloud to OpenShift using CLI",
+    	"title": "Deploy Tomcat-in-the-cloud to OpenShift using CLI - Stable",
+    	"description": ""
+    },
+    {
+      "course_id": "deploy-titc-using-cli-latest",
+    	"title": "Deploy Tomcat-in-the-cloud to OpenShift using CLI - Latest update",
     	"description": ""
     }
   ]

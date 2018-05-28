@@ -10,7 +10,7 @@
 	"environment": {
 		"showdashboard": true,
 		"dashboard": "Dashboard",
-		"uilayout": "terminal"
+		"uilayout": "editor-terminal"
 	},
 	"details": {
 		"steps": [

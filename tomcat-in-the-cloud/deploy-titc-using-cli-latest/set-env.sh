@@ -1,5 +1,6 @@
 ~/.launch.sh
 
+yum clean all
 # Install jdk
 yum install java-1.8.0-openjdk-devel.x86_64 -y
 export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk

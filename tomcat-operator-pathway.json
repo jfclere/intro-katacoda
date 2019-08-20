@@ -1,0 +1,12 @@
+{
+  "title": "Introduction to Openshift Tomcat-Operator",
+  "description": "Learn how to use the Tomcat-Operator in Openshift",
+  "paid": false,
+  "courses": [
+    {
+      "course_id": "tomcat-operator-s2i",
+      "title": "Deploy a Webapp via Source-to-Image (s2i)",
+      "description": ""
+    }
+  ]
+}

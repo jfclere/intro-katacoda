@@ -9,6 +9,7 @@ build the webapp it using maven
 `mvn install`{{execute}}
 
 prepare the image
+
 `cd`{{execute}}
 
 `git clone https://github.com/jfclere/tomcat-kubernetes.git`{{execute}}

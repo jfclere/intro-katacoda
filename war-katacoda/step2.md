@@ -19,3 +19,7 @@ build the operator
 `cd $GOPATH/src/github.com/tomcat-operator`{{execute}}
 
 `make build`{{execute}}
+
+`kubectl create namespace tomcat-operator`{{execute}}
+
+`make run-kubernetes`{{execute}}

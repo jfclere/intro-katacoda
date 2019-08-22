@@ -6,15 +6,16 @@ sudo chown $(id -u):$(id -g) $HOME/admin.conf
 export KUBECONFIG=$HOME/admin.conf
 
 kubectl apply -f /opt/weave-kube
-kubectl get pod -n kube-systemA
+kubectl get pod -n kube-system
 else
-while true do
-  sleep 10
-  curl -v -k https://172.17.0.53:6443
-  if [ $? -eq 0 ]; then
-    kubeadm join --discovery-token-unsafe-skip-ca-verification --token=102952.1a7dd4cc8d1f4cc5 172.17.0.53:6443
-    break
-  fi
+  while true
+  do
+    sleep 10
+    curl -v -k https://172.17.0.53:6443
+    if [ $? -eq 0 ]; then
+      kubeadm join --discovery-token-unsafe-skip-ca-verification --token=102952.1a7dd4cc8d1f4cc5 172.17.0.53:6443
+      break
+    fi
   done
 fi
 

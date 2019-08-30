@@ -1,3 +1,22 @@
+# Fast testing
+
+## Deploy operator
+`git clone https://github.com/web-servers/tomcat-operator.git $GOPATH/src/github.com/tomcat-operator`{{execute}}
+
+`cd $GOPATH/src/github.com/tomcat-operator`{{execute}}
+
+`kubectl create namespace tomcat-operator`{{execute}}
+
+`make run-kubernetes`{{execute}}
+
+## Create CR
+`cd /root/demo-webapp`{{execute}}
+`kubectl apply -f ./custom_resource.yaml`{{execute}}
+
+# Normal procedure
+
+
+
 check out the demo for github
 
 `git clone https://github.com/jfclere/demo-webapp`{{execute}}
@@ -22,8 +41,6 @@ prepare the image
 
 `docker login`{{execute}}
 
-`docker build -t docker.io/jfclere/tomcat-demo .`{{execute}}
+`docker build . -f Dockerfile.webapp -t docker.io/maxbeck/tomcat-demo:latest --build-arg war=sample.war`{{execute}}
 
-`docker push jfclere/tomcat-demo`{{execute}}
-
-
+`docker push docker.io/maxbeck/tomcat-demo:latest`{{execute}}

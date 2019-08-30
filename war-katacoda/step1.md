@@ -12,9 +12,9 @@ prepare the image
 
 `cd`{{execute}}
 
-`git clone https://github.com/jfclere/tomcat-kubernetes.git`{{execute}}
+`git clone https://github.com/jfclere/tomcat-openshift.git`{{execute}}
 
-`cd tomcat-kubernetes`{{execute}}
+`cd tomcat-openshift`{{execute}}
 
 `cp /root/demo-webapp/target/demo-1.0.war sample.war`{{execute}}
 

@@ -5,7 +5,7 @@
 `kubectl get pods`{{execute}}
 
 ## scale to 2 pofs
-`kubectl scale --replicas=2 deployement tomcat-demo`{{execute}}
+`kubectl scale --replicas=2 deployment tomcat-demo`{{execute}}
 
 ## check the logs
 
@@ -23,7 +23,7 @@
 
 ## expose the service directly
 
-`kubectl expose deployment tomcat-demo --type=LoadBalancer --name=tomcat-demo`{{execute}}
+`kubectl expose deployment tomcat-demo --type=LoadBalancer --name=tomcat-balancer`{{execute}}
 
 ## get the port
 

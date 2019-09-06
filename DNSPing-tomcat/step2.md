@@ -12,5 +12,5 @@
 
 ## create the service
 
-`kubetcl create -f service.yaml`{{execute}}
+`kubectl create -f service.yaml`{{execute}}
 

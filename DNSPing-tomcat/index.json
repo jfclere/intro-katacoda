@@ -1,6 +1,6 @@
 {
   "title": "war-demo",
-  "description": "Tomcat Operator Demo using a war and tomcat-maven",
+  "description": "Tomcat Demo using a war, tomcat-maven and DNSPing",
   "difficulty": "Beginner",
   "time": "10",
   "details": {

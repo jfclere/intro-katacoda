@@ -1,6 +1,6 @@
 ##get the sources of DNSPing kubernetes configuration:
 
-`get clone https://github.com/jfclere/DNSPing-tomcat.git`{{execute}}
+`git clone https://github.com/jfclere/DNSPing-tomcat.git`{{execute}}
 
 `cd DNSPing-tomcat`{{execute}}
 
@@ -8,7 +8,7 @@
 
 `kubectl create namespace tomcat`{{execute}}
 
-`kubetcl create -f deployment.yaml`{{execute}}
+`kubectl create -f deployment.yaml`{{execute}}
 
 ## create the service
 

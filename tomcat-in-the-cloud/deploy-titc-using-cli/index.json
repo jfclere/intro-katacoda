@@ -1,6 +1,6 @@
 {
 	"icon": "fa-openshift",
-	"title": "Deploying tomcat-in-the-cloud to OpenShift",
+	"title": "KUBEPing demo in OpenShift",
 	"description": "",
 	"pathwayTitle": "OpenShift",
 	"backend": {

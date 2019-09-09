@@ -11,3 +11,11 @@
 
 ## the tomcat pods started
 `kubectl get pods`{{execute}}
+
+## check services
+`kubectl get services`{{execute}}
+
+## OOPS last minute fix... add the missing service...
+`git clone https://github.com/jfclere/tomcat-openshift`{{execute}}
+`cd tomcat-openshift`{{execute}}
+`kubectl add -f ./missing_service.yaml`{{execute}}

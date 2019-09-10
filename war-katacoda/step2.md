@@ -18,8 +18,15 @@ build the operator
 
 `cd $GOPATH/src/github.com/tomcat-operator`{{execute}}
 
-`make build`{{execute}}
+## Login to docker to send the image in case you push it
+`docker login`{{execute}}
+
+## Build the operator image
+`make build IMAGE=jfclere/tomcat-operator`{{execute}}
+
+## Send it to docker.io
+`make push IMAGE=jfclere/tomcat-operator`{{execute}}
 
 `kubectl create namespace tomcat-operator`{{execute}}
 
-`make run-kubernetes`{{execute}}
+`make run-kubernetes IMAGE=jfclere/tomcat-operator`{{execute}}

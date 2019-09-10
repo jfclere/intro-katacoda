@@ -20,4 +20,4 @@
 `cd tomcat-openshift`{{execute}}
 `kubectl create -f ./service.yaml`{{execute}}
 `kubectl expose deployment tomcat-demo --type=LoadBalancer --name=tomcat-balancer`{{execute}}
-
+`kubectl exec -it tomcat-demo-podi sh`{{execute}}

@@ -18,6 +18,6 @@
 ## OOPS last minute fix... add the missing service...
 `git clone https://github.com/jfclere/tomcat-openshift`{{execute}}
 `cd tomcat-openshift`{{execute}}
-`kubectl add -f ./service.yaml`{{execute}}
+`kubectl create -f ./service.yaml`{{execute}}
 `kubectl expose deployment tomcat-demo --type=LoadBalancer --name=tomcat-balancer`{{execute}}
 

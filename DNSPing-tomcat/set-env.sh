@@ -1,7 +1,7 @@
 
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
 
-apt upgrade kubeadm
+apt -yq upgrade kubeadm
 
 if [ $HOSTNAME = "master" ]; then
 kubeadm init --token=102952.1a7dd4cc8d1f4cc5 --kubernetes-version $(kubeadm version -o short)

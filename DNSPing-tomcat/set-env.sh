@@ -1,7 +1,7 @@
 
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
 
-apt -yq upgrade kubeadm
+apt -y upgrade kubeadm
 
 kubeadm version
 

@@ -27,6 +27,8 @@ build the operator
 ## Send it to docker.io
 `make push IMAGE=jfclere/tomcat-operator`{{execute}}
 
-`kubectl create namespace tomcat-operator`{{execute}}
+`kubectl create namespace tomcat-demo`{{execute}}
+
+`kubectl config set-context --current --namespace=tomcat-demo`{{execute}}
 
 `make run-kubernetes IMAGE=jfclere/tomcat-operator`{{execute}}

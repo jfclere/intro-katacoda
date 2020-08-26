@@ -1,9 +1,9 @@
 
-apt install kbtin
-
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
 
 if [ $HOSTNAME = "controlplane" ]; then
+apt install kbtin
+
 kubeadm init --token=102952.1a7dd4cc8d1f4cc5 --kubernetes-version $(kubeadm version -o short)
 
 sudo cp /etc/kubernetes/admin.conf $HOME/

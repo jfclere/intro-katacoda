@@ -15,5 +15,10 @@
 ## expose the deployement
 `kubectl expose deployment tomcat-demo --type=LoadBalancer --name=tomcat-balancer`{{execute}}
 
-## check nsloop tomcat-demo in on of the pods.
-`kubectl exec -it tomcat-demo-pod sh`{{execute}}
+## check service to get the port of tomcat-balancer
+`kubectl get services`{{execute}}
+The tomcat-balancer entry have 2 ports exposed like 8787:32487,8080:32753
+Use ifconfig to get the weave network address
+`ifconfig`{{execute}}
+Then use curl to check the application
+`curl http://10.44.0.0:32753`{{execute}}

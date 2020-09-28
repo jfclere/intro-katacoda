@@ -27,5 +27,5 @@ Then use curl to check the application:
 
 `curl http://10.44.0.0:32753`{{execute}}
 
-## Check the publicly expose webapp
+## Check the publicly exposed webapp
 [web application](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com)

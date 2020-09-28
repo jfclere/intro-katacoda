@@ -8,6 +8,8 @@
 
 `kubectl create namespace tomcat`{{execute}}
 
+`kubectl config set-context --current --namespace=tomcat`{{execute}}
+
 `kubectl create -f deployment.yaml`{{execute}}
 
 ## create the service

@@ -30,6 +30,7 @@
 `kubectl get services`{{execute}}
 
 ## check counter
+<http://[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com>
 
 ## stop a node
 

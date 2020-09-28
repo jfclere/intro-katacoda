@@ -30,7 +30,7 @@
 `kubectl get services`{{execute}}
 
 ## check counter
-[web application](http://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com)
+[web application](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com)
 
 ## stop a node
 

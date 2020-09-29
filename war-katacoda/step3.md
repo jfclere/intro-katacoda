@@ -35,3 +35,7 @@ Then use curl to check the application:
 
 ## Check the publicly exposed webapp
 [web application](https://[[HOST_SUBDOMAIN]]-30666-[[KATACODA_HOST]].environments.katacoda.com/demo)
+
+## via URL
+`PORT=$(kubectl get service | grep LoadBalancer | sed 's!:! !' | sed 's!\/! !' | awk ' { print $6 } ')`{{execute}}
+`echo "https://[[HOST_SUBDOMAIN]]-${PORT}-[[KATACODA_HOST]].environments.katacoda.com"`{{execute}}

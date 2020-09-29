@@ -32,6 +32,10 @@
 ## check counter
 [web application](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com)
 
+## via curl
+`PORT=\`kubectl get service | grep LoadBalancer | sed 's!:! !' | sed 's!\/! !' | awk ' { print $6 } '\``{{execute}}
+`echo "https://[[HOST_SUBDOMAIN]]-${PORT}-[[KATACODA_HOST]].environments.katacoda.com"`{{execute}}
+
 ## stop a node
 
 `kubectl delete pods tomcat-demo-pod`{{execute}}

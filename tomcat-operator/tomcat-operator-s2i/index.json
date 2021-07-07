@@ -1,6 +1,6 @@
 {
 	"icon": "fa-openshift",
-	"title": "KUBEPing demo in OpenShift",
+	"title": "Deploy a Webapp via Source-to-Image (s2i)",
 	"description": "",
 	"pathwayTitle": "OpenShift",
 	"backend": {
@@ -10,17 +10,13 @@
 	"environment": {
 		"showdashboard": true,
 		"dashboard": "Dashboard",
-		"uilayout": "terminal"
+		"uilayout": "editor-terminal"
 	},
 	"details": {
 		"steps": [
-			{
-	      "title": "Step 1 - Building Dependencies",
-	      "text": "1_buildDependencies.md"
-	    },
-	    {
-	      "title": "Step 2 - Deployment",
-	      "text": "2_deployment.md"
+		{
+	      "title": "Step 1 - Setting up the Environment",
+	      "text": "1_setUp.md"
 	    }
 		],
 		"intro": {
